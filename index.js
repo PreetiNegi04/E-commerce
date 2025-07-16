@@ -1,5 +1,6 @@
 import {products} from './db/products.js';
 
+let cart = [];
 const productContainer = document.getElementById('products');
 
 for(let product of products) {
@@ -59,6 +60,7 @@ for(let product of products) {
 
     const ctaBtn = document.createElement('div');
     ctaBtn.classList.add('cta-btn');
+    ctaBtn.setAttribute("data-id", product._id);
     const button = document.createElement('button');
     button.classList.add(
       'button',
@@ -86,3 +88,10 @@ for(let product of products) {
 
 
   }
+
+ productContainer.addEventListener("click", (event)=>{
+    const productToAddCart = products.filter(({_id}) => _id === event.target.dataset.id);
+    cart = [...cart, ...productToAddCart];
+
+    console.log(cart);
+  })
