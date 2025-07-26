@@ -1,7 +1,7 @@
 import {products} from './db/products.js';
 import { createProductCart } from './createProductCart.js'; 
 import { findProductInCart } from './utils/findProductInCart.js';
-let cart = [];
+let cart = JSON.parse(localStorage.getItem('cart'));
 const productContainer = document.getElementById('products');
 
 /*for(let product of products) {
