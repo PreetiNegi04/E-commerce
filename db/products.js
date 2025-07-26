@@ -2,7 +2,7 @@ import { UUID } from "https://unpkg.com/uuidjs@^5";
 
 export const products = [
   {
-    id: "001",
+    _id: "001",
     name: 'Apple iPhone 14',
     img : 'https://ss7.vzw.com/is/image/VerizonWireless/apple-iphone-16-pro-natural-titanium?hei=262&fmt=webp',
     alt : 'Apple iPhone 14',
@@ -15,7 +15,7 @@ export const products = [
     rating : 4.8,
   },
   {
-    id: "002",
+    _id: "002",
     name: 'Samsung Galaxy S23',
     img : 'https://imgs.search.brave.com/tYFjQ1i_p7POLddToLC0ZaXHC06kiXvSRmquLlg2CNs/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly93d3cu/OTEtY2RuLmNvbS9o/dWIvd3AtY29udGVu/dC91cGxvYWRzLzIw/MjMvMDUvU2Ftc3Vu/Zy1HYWxheHktUzIz/LUxpbWUuanBnP3Ry/PXctMjgwLGgtMTYw/LGMtMSxxLTcw',
     alt : 'Samsung Galaxy S23',
@@ -28,7 +28,7 @@ export const products = [
     rating : 4.7,
   },
   {
-    id: "003",
+    _id: "003",
     name: 'Google Pixel 7 Pro',
     img : 'https://imgs.search.brave.com/XqvDoddvPJkAxxyvFLvLweCOa8pOGRJekmjPyEm7wzI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9mZG4y/LmdzbWFyZW5hLmNv/bS92di9waWNzL3Nh/bXN1bmcvc2Ftc3Vu/Zy1nYWxheHktajct/MjAxNy1zbS1qNzMw/LTIuanBn',
     alt : 'Google Pixel 7 Pro',
@@ -41,7 +41,7 @@ export const products = [
     rating : 4.6,
   },
   {
-    id: "004",
+    _id: "004",
     name: 'OnePlus 11',
     img : 'https://imgs.search.brave.com/9omeHKqEtFHTakQL7NwZFgU_3PsBhfRwzUe1dwvYylU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9odHRw/Mi5tbHN0YXRpYy5j/b20vRF9OUV9OUF84/ODE1OTEtTUxBODQ1/NDg4MjI4NjRfMDUy/MDI1LU8ud2VicA',
     alt : 'OnePlus 11',
@@ -54,7 +54,7 @@ export const products = [
     rating : 4.5,
   },
   {
-    id: "005",
+    _id: "005",
     name: 'Google Pixel 7 Pro',
     img : 'https://imgs.search.brave.com/XqvDoddvPJkAxxyvFLvLweCOa8pOGRJekmjPyEm7wzI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9mZG4y/LmdzbWFyZW5hLmNv/bS92di9waWNzL3Nh/bXN1bmcvc2Ftc3Vu/Zy1nYWxheHktajct/MjAxNy1zbS1qNzMw/LTIuanBn',
     alt : 'Google Pixel 7 Pro',
@@ -67,7 +67,7 @@ export const products = [
     rating : 4.6,
   },
   {
-    id: "006",
+    _id: "006",
     name: 'Google Pixel 7 Pro',
     img : 'https://imgs.search.brave.com/XqvDoddvPJkAxxyvFLvLweCOa8pOGRJekmjPyEm7wzI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9mZG4y/LmdzbWFyZW5hLmNv/bS92di9waWNzL3Nh/bXN1bmcvc2Ftc3Vu/Zy1nYWxheHktajct/MjAxNy1zbS1qNzMw/LTIuanBn',
     alt : 'Google Pixel 7 Pro',
@@ -80,7 +80,7 @@ export const products = [
     rating : 4.6,
   },
   {
-    id: "007",
+    _id: "007",
     name: 'Google Pixel 7 Pro',
     img : 'https://imgs.search.brave.com/XqvDoddvPJkAxxyvFLvLweCOa8pOGRJekmjPyEm7wzI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9mZG4y/LmdzbWFyZW5hLmNv/bS92di9waWNzL3Nh/bXN1bmcvc2Ftc3Vu/Zy1nYWxheHktajct/MjAxNy1zbS1qNzMw/LTIuanBn',
     alt : 'Google Pixel 7 Pro',
@@ -93,7 +93,7 @@ export const products = [
     rating : 4.6,
   },
   {
-    id: "008",
+    _id: "008",
     name: 'Google Pixel 7 Pro',
     img : 'https://imgs.search.brave.com/XqvDoddvPJkAxxyvFLvLweCOa8pOGRJekmjPyEm7wzI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9mZG4y/LmdzbWFyZW5hLmNv/bS92di9waWNzL3Nh/bXN1bmcvc2Ftc3Vu/Zy1nYWxheHktajct/MjAxNy1zbS1qNzMw/LTIuanBn',
     alt : 'Google Pixel 7 Pro',

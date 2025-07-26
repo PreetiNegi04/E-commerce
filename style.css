@@ -1,6 +1,5 @@
 @import url("https://uilight.netlify.app/main.css");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
-@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 :root {
   --primary-color: #334155;
@@ -56,4 +55,21 @@
 .card-image{
   height:100%;
   object-fit:contain;
+}
+
+.star{
+  color:cornflowerblue;
+}
+
+.card-price{
+  gap: 4px;
+}
+
+.price-strike-through,
+.discount{
+  font-size: 14px;
+}
+
+.gap-sm{
+  gap:8px;
 }
