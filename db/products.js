@@ -12,7 +12,7 @@ export const products = [
     discount : 10,
     size : '128GB',
     idealFor : 'Photography, Gaming, Everyday Use',
-    rating : 4.8,
+    rating : 2.8,
   },
   {
     _id: "002",
@@ -38,7 +38,7 @@ export const products = [
     discount : 10,
     size : '128GB',
     idealFor : 'Photography, Everyday Use',
-    rating : 4.6,
+    rating : 1.6,
   },
   {
     _id: "004",
@@ -64,7 +64,7 @@ export const products = [
     discount : 10,
     size : '128GB',
     idealFor : 'Photography, Everyday Use',
-    rating : 4.6,
+    rating : 3.6,
   },
   {
     _id: "006",
@@ -77,7 +77,7 @@ export const products = [
     discount : 10,
     size : '128GB',
     idealFor : 'Photography, Everyday Use',
-    rating : 4.6,
+    rating : 2.6,
   },
   {
     _id: "007",
@@ -90,7 +90,7 @@ export const products = [
     discount : 10,
     size : '128GB',
     idealFor : 'Photography, Everyday Use',
-    rating : 4.6,
+    rating : 3.6,
   },
   {
     _id: "008",
@@ -103,6 +103,6 @@ export const products = [
     discount : 10,
     size : '128GB',
     idealFor : 'Photography, Everyday Use',
-    rating : 4.6,
+    rating : 3.6,
   }
 ]
